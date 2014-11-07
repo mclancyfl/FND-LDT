@@ -1,0 +1,24 @@
+RESPID,BEGINTITLE,RESPNAME,DGSNAME,VERSION,DGNAME,MNNAME,DESC,GASNAME,REQGNAME
+SYSADMIN,SYSTEM_ADMINISTRATOR,System Administrator,"""SYSADMIN""","""4""","""Standard""","""FND_NAVIGATE4.0""",Application Object Library System Adminstrator,FND,System Administrator Reports
+GL,GENERAL_LEDGER_SUPER_USER,General Ledger Super User,"""SQLGL""","""4""","""Standard""","""GL_SUPERUSER""",Super User responsibility for Oracle General Ledger,SQLGL,GL Concurrent Program Group
+AP,PAYABLES_MANAGER,Payables Manager,"""SQLAP""","""4""","""Standard""","""AP_NAVIGATE_GUI12""",Payables Manager,SQLAP,All Reports
+AR,RECEIVABLES_MANAGER,Receivables Manager,"""AR""","""4""","""Standard""","""AR_NAVIGATE_GUI""",Receivables Manager,AR,Receivables All
+HR,US_HRMS_MANAGER,US HRMS Manager,"""PER""","""4""","""Standard""","""US_HRMS_NAV""",Oracle HRMS - full menu for US users,PER,HR Reports and Processes
+PO,PURCHASING_SUPER_USER,Purchasing Super User,"""PO""","""4""","""Standard""","""PO_SUPERUSER_GUI""",Oracle Purchasing Super User Responsibility,PO,All Reports
+IPROC,SELF_SERVICE_PURCHASING_5,iProcurement,"""ICX""","""W""","""Standard""","""ICX_POR_SSP_HOME""",iProcurement,,
+IPROCCAT,BE_SELF_SERVICE_5_CAT,iProcurement Catalog Admin,"""ICX""","""W""","""Standard""","""ICX_CAT_ADMINISTRATION_HOME""",iProcurement Catalog Admin,,
+PAC,PROJECT_COSTING_SUPER_USER,Project Costing Super User,"""PA""","""4""","""Standard""","""PA_SUPERUSER_GUI (PC)""",Project Costing Administrator,PA,All Project Costing Programs
+PAB,PROJECT_BILLING_SUPER_USER,Project Billing Super User,"""PA""","""4""","""Standard""","""PA_SUPERUSER_GUI (PB)""",Project Billing Administrator,PA,All Project Billing Programs
+INV,ORACLE_INVENTORY,Oracle Inventory,"""INV""","""4""","""Standard""","""FND_NAVSITE4.0""",Oracle Inventory - GUI,INV,All inclusive
+OE,ORDER_ENTRY_SUPER_USER,Order Entry Super User,"""OE""","""4""","""Standard""","""OE_SUPER_USER_10SC""",Order Entry Super User,OE,OE Concurrent Programs
+FA,FIXED_ASSETS_MANAGER,Fixed Assets Manager,"""OFA""","""4""","""Standard""","""FA_MAIN""",Fixed Assets Manager,OFA,All Reports and Programs
+CE,CASH_MANAGEMENT,Cash Management Superuser,"""CE""","""4""","""Standard""","""CE_SUPERUSER_GUI""",Oracle Cash Management Superuser,CE,All Reports
+IEXPA,OIE_EXPENSE_SETUP,Internet Expenses Setup and Administration,"""SQLAP""","""4""","""Standard""","""OIE_POL_MENU""",iExpense Admin,,
+IEXPU,OIE_EXPENSE_REPORTS,Internet Expenses,"""SQLAP""","""4""","""Standard""","""OIE_MAIN_MENU_NEW""",Expense Reporting,,
+IC,FUN_INTERCOMPANY_SUPERUSER,Intercompany Super User,"""FUN""","""W""","""Standard""","""FUN_ROOT_MENU""",Intercompany Super User,FUN,All Intercompany Reports
+OKCA,OKC_TERMS_LIBRARY_ADMIN,Contracts Terms Library Administrator,"""OKC""","""W""","""Standard""","""OKC_CONTRACTS_HTML_ROOT""",Contracts Admin,OKC,Contract Terms Request Group
+OKCWB,OKC_REP_ADMIN,Contracts Workbench Administrator,"""OKC""","""W""","""Standard"""," ""OKC_REP_ROOT_MENU""",Payments Manager,OKC,Contract Repository Requests
+IBYA,IBY_SETUP_COMPLETE,Payments Setup Administrator,"""IBY""","""W""","""Standard"""," ""IBY_SETUP_TASKLIST""",Oracle Payments Setup Administrator,IBY,IBY_SYS_SECURITY_GROUP
+IBYD,IBY_FD_PROCESS_MANAGER,Funds Disbursement Process Manager,"""IBY""","""W""","""Standard""","""IBY_FD_HOME""",Funds Disbursement Process Manager,IBY,IBY_SCHED_GROUP
+TAXA,IDC_TEST,Tax Administrator,"""ZX""","""W""","""Standard""","""ZX_RESPONSIBILITY_MENU""",Tax Admin,,
+PNSU,PN_SU,Property Manager Super User,"""PN""","""4""","""Standard""","""PN_NAVIGATE_GUI""",Property Manager Super User,PN,PN_SUPER_USER_REQUEST_GROUP

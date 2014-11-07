@@ -48,10 +48,10 @@ def printall():
     print '%s' % (stdgrp['ED'])  + '\n'
 
 # region Layout for the resp group items to be placed in the file
-def runlister(resplist,hdrstr,filout):
+def runlister(resplist,hdrstr,filout,prfx):
     wrst=''
     str1=''
-    prfx = 'United States'
+    prfx = prfx
     for item in resplist:
         lineBEG ='%s' % (stdgrp['BEG']) + '%s "%s-%s" ' % (item['DGSNAME'],prfx, item['BEGINTITLE']) + '\n'
         line01 = '%s' % (stdgrp['L01']) + '"%s-%s"' % (prfx,item['RESPNAME']) + '\n'

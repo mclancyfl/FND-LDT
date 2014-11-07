@@ -17,7 +17,7 @@ it then details out the ldt file using lists
 '''
 
 #***********************Variables Definition****************************************************************************
-path   = '/Users/mclancy/Desktop/ldt/'
+path   = 'dat/'
 hdrfil = 'hdr-ldt.dat'
 outfil = 'ldtout.ldt'
 sb     = StringBuilder()
@@ -58,7 +58,9 @@ def main():
         choice = input('Please choose: ')
         choice = int(choice)
         if choice == 1:
-            runlister(resplist,hdrstr,filout)
+            print "Enter the prefix for the Responsibilities"
+	    prfx = raw_input()
+            runlister(resplist,hdrstr,filout,prfx)
             print 'Press enter to continue back to menu'
             raw_input()
         if choice == 2:
